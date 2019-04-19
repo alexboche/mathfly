@@ -12,6 +12,7 @@ ccr_modules = ["core",
 app_modules = ["sublime",
 				"sumatrapdf",
 				"texmaker_accessibility",
+				"texmaker",
 				]
 max_ccr_repetitions = 16
 alternative_letters = false
