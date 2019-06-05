@@ -25,6 +25,10 @@ def matrix(rows, cols):
 
 class lyx_nested(NestedRule):
     mapping = {
+        "[<before>] subby <sequence1> [<sequence2>]":
+            [Text("_"), Key("right")],
+        "[<before>] to the <sequence1> [<sequence2>]":
+            [Text("^"), Key("right")],
         "[<before>] integral from <sequence1> to <sequence2>":
             [Text("\\int _"), Key("right, caret"), Key("right")],
 
